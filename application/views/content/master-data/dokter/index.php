@@ -17,10 +17,10 @@ $this->load->view('dist/_partials/header');
         </div>
 
         <div class="section-body">
+            <a href="" class="btn btn-primary mb-1"><i class="fas fa-user-plus"></i> Add Data</a>
             <div class="row">
                 <div class="col-12">
                     <div class="card">
-
                         <div class="card-header">
                             <h4><?= isset($sub_title) ? $sub_title : ''  ?></h4>
                         </div>
